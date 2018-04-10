@@ -10,6 +10,9 @@ Install via npm:
 ```
 npm install
 ```
+## Preview
+
+[Preview - https://simple-landing-page.herokuapp.com/](https://simple-landing-page.herokuapp.com/)
 
 ## Built With
 
