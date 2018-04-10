@@ -1,0 +1,18 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "Landing page basic example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jorge Caraballo",
+  "license": "ISC",
+  "dependencies": {
+    "blueimp-gallery": "^2.33.0",
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "simple-jQuery-slider": "^2.6.5",
+    "smart-app-banner": "^1.4.0"
+  }
+}

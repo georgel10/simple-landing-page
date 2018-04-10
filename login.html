@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+
+</head>
+<body>
+	<div class="limiter">
+		<div class="row full-screen" style="background-image: url('assets/images/bg-01.jpg');">
+			<div class="login">
+				<h3 class="login-title">Login</h3>
+				<form id="login-form" class="login-form form col-md-12 center-block" name="loginform" action="logued.html" onsubmit="return validateForm()" method="post">
+					<div class="form-group">
+						<input type="text" name="email" class="form-control input-lg" placeholder="Email">
+					</div>
+					<div class="form-group">
+						<input type="password" name="password" class="form-control input-lg" placeholder="Clave">
+					</div>
+					<div class="form-group">
+						<button type="submit" class="login-button btn btn-primary btn-lg btn-block">Entrar</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

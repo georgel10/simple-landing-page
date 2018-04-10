@@ -1,0 +1,131 @@
+
+.slider{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+ 
+.slide{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    float: left;
+    position: absolute;
+    background-position: 50%;
+    background-size: cover;
+}
+.slide .mask{
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+
+}
+.slide .slidecontent{
+    padding: 40px 50px 20px 50px;
+}
+.slider .slide .slidecontent {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -150px;
+    text-align: center;
+    color: #ffffff;
+}
+#slideposition {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    z-index: 500;
+}
+#slideposition ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#slideposition ul li.indicator.active {
+    background: white;
+}
+
+#slideposition ul li.indicator {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background: #222;
+    margin: 0px 7px;
+    padding: 0;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.slide#first{
+	background-image: url(../assets/images/bg1.jpg); 
+}
+.slide#sec{
+	background-image: url(../assets/images/bg2.jpg); 
+}
+
+header#top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    overflow: hidden;
+}
+
+header#top #logo {
+    float: left;
+    margin: 16px 0 0 30px;
+    font-weight: normal;
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.slide h1{
+	margin: 40px 0;
+	font-size: 45px;
+}
+
+/*****Menu****/
+
+#top .nav {
+    float: right;
+    margin: 20px 40px 0 0;
+}
+
+#top .nav a.nav-link {
+    color: #fff;
+    font-size: 20px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+#top .nav a.nav-link:hover {
+    color: #00dcff;
+    font-size: 33px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+section {
+    padding: 8rem 0;
+}
+
+h2.title{
+	font-size: 40px;
+}
+
+section#gallery {
+	background-color: #ddd;
+}
